@@ -1,0 +1,705 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.35f1 (18e4db7a9996) revision 1631451'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'tr' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/yusra/Documents/GitHub/BrickBreaker/Brick Breaker
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51805
+Successfully changed project path to: C:/Users/yusra/Documents/GitHub/BrickBreaker/Brick Breaker
+C:/Users/yusra/Documents/GitHub/BrickBreaker/Brick Breaker
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 51.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.35f1 (18e4db7a9996)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yusra/Documents/GitHub/BrickBreaker/Brick Breaker/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001758 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (702ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (533ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (183ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.253 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1253ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1024ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2635.
+Total: 3.381700 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.162700 ms MarkObjects: 2.799800 ms  DeleteObjects: 0.192400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.009522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.986723 seconds.
+  path: Assets/Breakout Tile Set Free
+  artifactKey: Guid(9246cbd862704844d9b295e2915ecd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free using Guid(9246cbd862704844d9b295e2915ecd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff45420c8abc1bd489cf7136d9d2bd3') in 0.018938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064461 seconds.
+  path: Assets/Breakout Tile Set Free/preview.png
+  artifactKey: Guid(3b107d3be5203364ebbb0247a9d6fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/preview.png using Guid(3b107d3be5203364ebbb0247a9d6fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d112b0dae906278a9724e5cd1441a8') in 0.146758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Breakout Tile Set Free/sample.png
+  artifactKey: Guid(9f4648290b02e1f4b929b02e3f58e06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/sample.png using Guid(9f4648290b02e1f4b929b02e3f58e06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc42b98b8b0478f625ed3878fdd8e0d0') in 0.029746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.843851 seconds.
+  path: Assets/Breakout Tile Set Free/PNG
+  artifactKey: Guid(93b40a468844619459bdc9a12044aa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG using Guid(93b40a468844619459bdc9a12044aa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc793881da77604e638cc08a77efdcce') in 0.008319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076748 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/01-Breakout-Tiles.png
+  artifactKey: Guid(1866614570e53a44f8d9ec998a938d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/01-Breakout-Tiles.png using Guid(1866614570e53a44f8d9ec998a938d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d0d1cd7823a1872c9cd00e2af0733b') in 0.024717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/30-Breakout-Tiles.png
+  artifactKey: Guid(3489d248f87a30d4d877d2dc2af59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/30-Breakout-Tiles.png using Guid(3489d248f87a30d4d877d2dc2af59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40c31456b20bfbb0087e88ee3ff84da') in 0.022992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/32-Breakout-Tiles.png
+  artifactKey: Guid(7951ff19d5d16494da3f4594b33117b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/32-Breakout-Tiles.png using Guid(7951ff19d5d16494da3f4594b33117b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d63fe9c90c9f7f5f7852553d4f2d36') in 0.022891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/09-Breakout-Tiles.png
+  artifactKey: Guid(ffc12a1e5bf90bb4abbf017efd7f52eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/09-Breakout-Tiles.png using Guid(ffc12a1e5bf90bb4abbf017efd7f52eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2f4848124068a2aec3330a32556830') in 0.017674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/04-Breakout-Tiles.png
+  artifactKey: Guid(14f3a41ea85331f4a947b77fd6a55b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/04-Breakout-Tiles.png using Guid(14f3a41ea85331f4a947b77fd6a55b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fb290c9cd320bc30326b5bb8c3a6f2') in 0.017567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/12-Breakout-Tiles.png
+  artifactKey: Guid(a47f5385632848048814277458725f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/12-Breakout-Tiles.png using Guid(a47f5385632848048814277458725f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3f8381aed29543b5d56b08731d9e12') in 0.023376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/25-Breakout-Tiles.png
+  artifactKey: Guid(0bb8f930b41cbe447a13c8edd8d1852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/25-Breakout-Tiles.png using Guid(0bb8f930b41cbe447a13c8edd8d1852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e868fef8da1519c974905a47fec5c9') in 0.017196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/27-Breakout-Tiles.png
+  artifactKey: Guid(b18b72cc59f138a469833c6b312062d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/27-Breakout-Tiles.png using Guid(b18b72cc59f138a469833c6b312062d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77ff9fd4b23fd44a43ed2de4ac02a6d') in 0.017460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/22-Breakout-Tiles.png
+  artifactKey: Guid(a72c926171538e749baadb063957805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/22-Breakout-Tiles.png using Guid(a72c926171538e749baadb063957805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2815fa7b6bb1fc301af7563dc79204cf') in 0.017084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/07-Breakout-Tiles.png
+  artifactKey: Guid(3c9385dbe768eea45aec265d63f1498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/07-Breakout-Tiles.png using Guid(3c9385dbe768eea45aec265d63f1498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85990ba2129975f6605897816269c71c') in 0.014927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/28-Breakout-Tiles.png
+  artifactKey: Guid(a1df05d4f042aac4cb375840874704b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/28-Breakout-Tiles.png using Guid(a1df05d4f042aac4cb375840874704b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e506d08f5b343748152783a460cb5285') in 0.020418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/08-Breakout-Tiles.png
+  artifactKey: Guid(55633da86b2c2134f85e4eb9ad5a3b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/08-Breakout-Tiles.png using Guid(55633da86b2c2134f85e4eb9ad5a3b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22aef1251ae41a211a61b2c0eba284c9') in 0.015860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/16-Breakout-Tiles.png
+  artifactKey: Guid(5b54d1fb7a2ebf144ac2266724dd5cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/16-Breakout-Tiles.png using Guid(5b54d1fb7a2ebf144ac2266724dd5cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3c30f8ac7c0993be0e3e4e755f84c6') in 0.016414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/06-Breakout-Tiles.png
+  artifactKey: Guid(b20ffc76c2596ec49b5785a27629c25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/06-Breakout-Tiles.png using Guid(b20ffc76c2596ec49b5785a27629c25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d13cd24b9080ee0a5ef9e2b48d47ea') in 0.019498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/15-Breakout-Tiles.png
+  artifactKey: Guid(2aa04fc357290a941a06be25faf13d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/15-Breakout-Tiles.png using Guid(2aa04fc357290a941a06be25faf13d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ad82c0f1e16fac2d23f29cd1446e49') in 0.015175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/31-Breakout-Tiles.png
+  artifactKey: Guid(09d6ff9ad67b55d44822a381559a4741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/31-Breakout-Tiles.png using Guid(09d6ff9ad67b55d44822a381559a4741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00baf71c079e1ba243dc399214faa60b') in 0.016750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/23-Breakout-Tiles.png
+  artifactKey: Guid(a98582f1f7fc5444ab0fff20c30518b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/23-Breakout-Tiles.png using Guid(a98582f1f7fc5444ab0fff20c30518b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bfb8bdb53ae26c90552ac217d506fa') in 0.019471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/03-Breakout-Tiles.png
+  artifactKey: Guid(b8dca477652620948a100b11dc4a4ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/03-Breakout-Tiles.png using Guid(b8dca477652620948a100b11dc4a4ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56812cd99d90798c86962a4de54abe90') in 0.018310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/02-Breakout-Tiles.png
+  artifactKey: Guid(a9364d6dd35e6aa4da80d25ad68e1c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/02-Breakout-Tiles.png using Guid(a9364d6dd35e6aa4da80d25ad68e1c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c9aa6c61024d4b424881b433480d6c') in 0.016201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/05-Breakout-Tiles.png
+  artifactKey: Guid(f78a561eec98af24e8d201f7696cf745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/05-Breakout-Tiles.png using Guid(f78a561eec98af24e8d201f7696cf745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad2bf081cf34dd7540877a84230e3b4') in 0.016017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/10-Breakout-Tiles.png
+  artifactKey: Guid(c854388c66263324f85a713f77d4c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/10-Breakout-Tiles.png using Guid(c854388c66263324f85a713f77d4c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f944b3ddbcd3d257c538eb48d7cf81e') in 0.016357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/13-Breakout-Tiles.png
+  artifactKey: Guid(24cc16412a3ff5740bc0bfa3255bbb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/13-Breakout-Tiles.png using Guid(24cc16412a3ff5740bc0bfa3255bbb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296ed885719134e4a279708ac8f0f9d0') in 0.020905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/29-Breakout-Tiles.png
+  artifactKey: Guid(9235d97bcd8d53e4e8f5812c3c9b2e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/29-Breakout-Tiles.png using Guid(9235d97bcd8d53e4e8f5812c3c9b2e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf9cf972abde9a97c955bf1b056347d') in 0.016844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/24-Breakout-Tiles.png
+  artifactKey: Guid(274bea5eb5c95c04e8ffc1f618f1d805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/24-Breakout-Tiles.png using Guid(274bea5eb5c95c04e8ffc1f618f1d805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628395791cb945f2a4bf3686e55b277b') in 0.017537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/20-Breakout-Tiles.png
+  artifactKey: Guid(e00f211b151488643a4ae8cbd5bbaf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/20-Breakout-Tiles.png using Guid(e00f211b151488643a4ae8cbd5bbaf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46df15b188f4724b6e539416be480b4') in 0.015588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/19-Breakout-Tiles.png
+  artifactKey: Guid(036c1d4ef48324541b86b60568593def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/19-Breakout-Tiles.png using Guid(036c1d4ef48324541b86b60568593def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106b29e083233b45668fc411dafdbf7c') in 0.015609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/18-Breakout-Tiles.png
+  artifactKey: Guid(4b1096455bfb70e4aafe98d9e87d1e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/18-Breakout-Tiles.png using Guid(4b1096455bfb70e4aafe98d9e87d1e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20bf05aafa425ff082a9cc0fa4c4e5c') in 0.017553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/26-Breakout-Tiles.png
+  artifactKey: Guid(4225411b6570a63478c0121339c6691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/26-Breakout-Tiles.png using Guid(4225411b6570a63478c0121339c6691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a9989668770a88680d71cbb08b23da') in 0.016971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/17-Breakout-Tiles.png
+  artifactKey: Guid(74eb258efd249e44f8e9f38943800282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/17-Breakout-Tiles.png using Guid(74eb258efd249e44f8e9f38943800282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b5ac0762f73611b77ab9ce66efca1c') in 0.017339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/14-Breakout-Tiles.png
+  artifactKey: Guid(45cd89c01a9bb60438ef938ced3148d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/14-Breakout-Tiles.png using Guid(45cd89c01a9bb60438ef938ced3148d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcb8ecfda97dfee96c9c4c95657f9d7') in 0.017879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/33-Breakout-Tiles.png
+  artifactKey: Guid(b9b37a9e1013df148935930d6115cec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/33-Breakout-Tiles.png using Guid(b9b37a9e1013df148935930d6115cec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb38121d798a997c8fca4d82727b4bb') in 0.017324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/11-Breakout-Tiles.png
+  artifactKey: Guid(c9ca48b72dc93d7418891b5bc71a623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/11-Breakout-Tiles.png using Guid(c9ca48b72dc93d7418891b5bc71a623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ae9a79535859c81d8454f9e1cc5889') in 0.015886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/21-Breakout-Tiles.png
+  artifactKey: Guid(edaddac249f71f54685d87e23fed796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/21-Breakout-Tiles.png using Guid(edaddac249f71f54685d87e23fed796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183b50c54514915a8a28d57bb6f2a525') in 0.020900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.219735 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/34-Breakout-Tiles.png
+  artifactKey: Guid(a09dee3a09f6eac448b165f31abc389d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/34-Breakout-Tiles.png using Guid(a09dee3a09f6eac448b165f31abc389d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645142b5d66a8f7c69c12454cf17475c') in 0.039987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/35-Breakout-Tiles.png
+  artifactKey: Guid(5013cd6786e6a794280c0fbfe534aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/35-Breakout-Tiles.png using Guid(5013cd6786e6a794280c0fbfe534aede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d52b2fb707452f0e7004b318b95dea') in 0.017850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/40-Breakout-Tiles.png
+  artifactKey: Guid(2913edf93a8afcd40879576938c29b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/40-Breakout-Tiles.png using Guid(2913edf93a8afcd40879576938c29b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a35cb4568ad5a41a678621012863d5e') in 0.018545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/48-Breakout-Tiles.png
+  artifactKey: Guid(0e37f030231ad8a47a3eb09d06f8203b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/48-Breakout-Tiles.png using Guid(0e37f030231ad8a47a3eb09d06f8203b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb01b8e378a49de853a4b830f44b0a52') in 0.016819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/46-Breakout-Tiles.png
+  artifactKey: Guid(7e50ac4b32c612747864cfe36c6a2fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/46-Breakout-Tiles.png using Guid(7e50ac4b32c612747864cfe36c6a2fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84081f99c4f5a62c2dd18251b04f72a8') in 0.016331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/49-Breakout-Tiles.png
+  artifactKey: Guid(d03556a396afc5b48978d1afdbfd9d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/49-Breakout-Tiles.png using Guid(d03556a396afc5b48978d1afdbfd9d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83760b480a1c1f639d797c2cfa8c35cb') in 0.015466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/39-Breakout-Tiles.png
+  artifactKey: Guid(7e6aa3d86f33460409579c8584bf19d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/39-Breakout-Tiles.png using Guid(7e6aa3d86f33460409579c8584bf19d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8a0adeb3bb495c3cf98bc243366f5f') in 0.018215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/37-Breakout-Tiles.png
+  artifactKey: Guid(d56eea2ce2b761048a5bca62a524a201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/37-Breakout-Tiles.png using Guid(d56eea2ce2b761048a5bca62a524a201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b916716fc8e10bcde3bc6e2cc29f9f97') in 0.016588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/36-Breakout-Tiles.png
+  artifactKey: Guid(d576707ae6884724da5c7f929d7d4589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/36-Breakout-Tiles.png using Guid(d576707ae6884724da5c7f929d7d4589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46791ff46ebfa9598424258cb31658e') in 0.016723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/43-Breakout-Tiles.png
+  artifactKey: Guid(7f7386f92b7531a47aea312c9369f23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/43-Breakout-Tiles.png using Guid(7f7386f92b7531a47aea312c9369f23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8af6d2deb11ef9c0538d244dbbde3aa') in 0.017830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/44-Breakout-Tiles.png
+  artifactKey: Guid(a91fdaf628d75af4a85c7ec98d5c9560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/44-Breakout-Tiles.png using Guid(a91fdaf628d75af4a85c7ec98d5c9560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6b07623ef3c4308bca7ac82db7ee0e') in 0.017247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/45-Breakout-Tiles.png
+  artifactKey: Guid(732a6d3c8560d6746a644b81a8c2a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/45-Breakout-Tiles.png using Guid(732a6d3c8560d6746a644b81a8c2a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752c4cfd27b6eaa6392c4af2197b486b') in 0.015879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/41-Breakout-Tiles.png
+  artifactKey: Guid(7d1eef9f6c930424890f1b9ceca1bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/41-Breakout-Tiles.png using Guid(7d1eef9f6c930424890f1b9ceca1bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aeef87e8e7cdd0abe4d183b32a1a5fa') in 0.016715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/42-Breakout-Tiles.png
+  artifactKey: Guid(f42bb1762465c4f40a371e2eead5af5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/42-Breakout-Tiles.png using Guid(f42bb1762465c4f40a371e2eead5af5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdd051b22e1501eba91c60ef3696952') in 0.019309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/47-Breakout-Tiles.png
+  artifactKey: Guid(0ae456289e1d9fd4ab104422283aad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/47-Breakout-Tiles.png using Guid(0ae456289e1d9fd4ab104422283aad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8738ef72d67fe6c6ccb16041a225c257') in 0.015533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/38-Breakout-Tiles.png
+  artifactKey: Guid(220cc553195e6a74485d4025408c29e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/38-Breakout-Tiles.png using Guid(220cc553195e6a74485d4025408c29e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58fff6445e778ff0e9b0082de112469') in 0.015926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.430629 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/50-Breakout-Tiles.png
+  artifactKey: Guid(1eee044daea615d4495583877d2a3794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/50-Breakout-Tiles.png using Guid(1eee044daea615d4495583877d2a3794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36288271aad6fec77beefd83ff08dea') in 0.043207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/56-Breakout-Tiles.png
+  artifactKey: Guid(3816d69ac82e2a247bc645d07b520ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/56-Breakout-Tiles.png using Guid(3816d69ac82e2a247bc645d07b520ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45956f7e6edab8e5384fd67827f76c9c') in 0.022836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/54-Breakout-Tiles.png
+  artifactKey: Guid(88019f7abd92e6e4cbaaaffdf357bb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/54-Breakout-Tiles.png using Guid(88019f7abd92e6e4cbaaaffdf357bb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402bef2e08a1b450b990e514901f58c9') in 0.018489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/55-Breakout-Tiles.png
+  artifactKey: Guid(804deb731d161e24e8542bd480fc906c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/55-Breakout-Tiles.png using Guid(804deb731d161e24e8542bd480fc906c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1414f9dd172a43cc23fa731862e93b') in 0.018451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/51-Breakout-Tiles.png
+  artifactKey: Guid(a125f4544092ed946ad5fea96b8eeb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/51-Breakout-Tiles.png using Guid(a125f4544092ed946ad5fea96b8eeb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7702d06d69962c5f5e2b532bdfb6c538') in 0.016893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/57-Breakout-Tiles.png
+  artifactKey: Guid(989a61bd93164d64f8c119ab5728282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/57-Breakout-Tiles.png using Guid(989a61bd93164d64f8c119ab5728282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab6d7886c92cb4e656d5d80d8210d44') in 0.019596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/52-Breakout-Tiles.png
+  artifactKey: Guid(9bf38249f3dbdd444b7edc07ee4e5f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/52-Breakout-Tiles.png using Guid(9bf38249f3dbdd444b7edc07ee4e5f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce3003892ab8dcd85ad3cad89f22dc4') in 0.017715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/53-Breakout-Tiles.png
+  artifactKey: Guid(c77e0e38c8a4fa44b9037e7638867fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/53-Breakout-Tiles.png using Guid(c77e0e38c8a4fa44b9037e7638867fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647a47dd6fa14b4013ef75225c8b8ba7') in 0.017412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304458 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/58-Breakout-Tiles.png
+  artifactKey: Guid(96f691ad585054e42937f246f4c7e6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/58-Breakout-Tiles.png using Guid(96f691ad585054e42937f246f4c7e6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e7c88d1b9665ea4ebc4f243be92028') in 0.048258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/59-Breakout-Tiles.png
+  artifactKey: Guid(916a39f6d959e4b4c81193b4b55e01c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/59-Breakout-Tiles.png using Guid(916a39f6d959e4b4c81193b4b55e01c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9808d985e1f175601a7d3e7de5cd5f3a') in 0.037529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/60-Breakout-Tiles.png
+  artifactKey: Guid(a75d12a31ccaf0c4c8efa953e63c37f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/60-Breakout-Tiles.png using Guid(a75d12a31ccaf0c4c8efa953e63c37f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeb504d8fbb77893e57fa180df01d0a') in 0.019599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Breakout Tile Set Free/PNG/61-Breakout-Tiles.png
+  artifactKey: Guid(1d46bb2d2db61524489c11d28d4cec55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/PNG/61-Breakout-Tiles.png using Guid(1d46bb2d2db61524489c11d28d4cec55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26887d22b06fa0280a407337c5481f88') in 0.019076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.041548 seconds.
+  path: Assets/Breakout Tile Set Free/Sprite Sheet
+  artifactKey: Guid(346217929c2b7504e99423119e29b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/Sprite Sheet using Guid(346217929c2b7504e99423119e29b890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0988f5f3327218e9306baee57afb9927') in 0.010523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068999 seconds.
+  path: Assets/Breakout Tile Set Free/Sprite Sheet/Breakout_Tile_Free.png
+  artifactKey: Guid(cf21cf6586eb724448f4f6b35b286b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/Sprite Sheet/Breakout_Tile_Free.png using Guid(cf21cf6586eb724448f4f6b35b286b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c94d66e71093d341f043adeb4c4dff') in 0.031579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.113218 seconds.
+  path: Assets/Breakout Tile Set Free/Vector
+  artifactKey: Guid(6f7d346b75c58644ea73ab26d943970b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/Vector using Guid(6f7d346b75c58644ea73ab26d943970b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4467a00e8115d681d7e86d6145e632') in 0.008495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.990271 seconds.
+  path: Assets/Script
+  artifactKey: Guid(6483f8cb54bc54a44bf20cd3caf1b728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(6483f8cb54bc54a44bf20cd3caf1b728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f1454c07ec91ef11808b96f6a06154') in 0.019247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.250746 seconds.
+  path: Assets/Breakout Tile Set Free/License.txt
+  artifactKey: Guid(3402e689adc565f47be939174cbe0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/License.txt using Guid(3402e689adc565f47be939174cbe0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d1ccbf45bb977bf5c22161ac8d9ca5') in 0.011213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 300.229037 seconds.
+  path: Assets/Breakout Tile Set Free/pngwing.com.png
+  artifactKey: Guid(f1018d3a1a1c0ef4884799300d036801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/pngwing.com.png using Guid(f1018d3a1a1c0ef4884799300d036801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf13e5fa649d5e9bc7b775f6f6c3377') in 0.032459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.195324 seconds.
+  path: Assets/Breakout Tile Set Free/pngwing.com (1).png
+  artifactKey: Guid(471b6d5a0da750c428c29e7f5fe398ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breakout Tile Set Free/pngwing.com (1).png using Guid(471b6d5a0da750c428c29e7f5fe398ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771cbf7045c6138808004776ea9b888a') in 0.036625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.272077 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.009874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.843795 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(5d8c2d219d5e9034ca14cef53459bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(5d8c2d219d5e9034ca14cef53459bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da278f93aa6b7a2bdff9b45526e0e438') in 0.019949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 200.829938 seconds.
+  path: Assets/Animation/cark.anim
+  artifactKey: Guid(cc50acce75fb50a4f988253c17b4e938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/cark.anim using Guid(cc50acce75fb50a4f988253c17b4e938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5179adb97ba0d06f0f0140132b560c') in 0.010743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 479.489321 seconds.
+  path: Assets/Animation/Image.controller
+  artifactKey: Guid(9454501bae268a94bab55bc2af735e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Image.controller using Guid(9454501bae268a94bab55bc2af735e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b489f8090f64d275b89104b9f06865') in 0.014568 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Domain Reload Profiling:
+	ReloadAssembly (879ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.1 MB.
+System memory in use after: 100.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2662.
+Total: 2.611300 ms (FindLiveObjects: 0.147800 ms CreateObjectMapping: 0.068300 ms MarkObjects: 2.260800 ms  DeleteObjects: 0.133800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Domain Reload Profiling:
+	ReloadAssembly (879ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (716ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2665.
+Total: 2.415200 ms (FindLiveObjects: 0.145800 ms CreateObjectMapping: 0.075300 ms MarkObjects: 2.102600 ms  DeleteObjects: 0.091100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
