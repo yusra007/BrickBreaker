@@ -37,6 +37,7 @@ public class wheel : MonoBehaviour
     public void WheelStop()
     {
         anim.enabled= false;
+        
     }
     IEnumerator SpinTheWheel(float time, float maxAngle)
     {
